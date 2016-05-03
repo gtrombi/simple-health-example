@@ -1,19 +1,27 @@
 {
-  "uuid": "8C488329-0A39-4A07-81B7-D257567BC3C5",
-  "shortName": "Simple Health Example",
-  "longName": "Simple Health Example",
-  "companyName": "Pebble",
-  "versionLabel": "1.0",
-  "sdkVersion": "3",
-  "targetPlatforms": ["aplite", "basalt", "chalk"],
-  "watchapp": {
-    "watchface": false
-  },
-  "capabilities": [ "health" ],
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": []
-  }
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        "health"
+    ],
+    "companyName": "Pebble",
+    "enableMultiJS": false,
+    "longName": "Simple Health Example",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Simple Health Example",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "8C488329-0A39-4A07-81B7-D257567BC3C5",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
 }
